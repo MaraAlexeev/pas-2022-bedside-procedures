@@ -18,7 +18,7 @@ author:
   - name: Joshua Nagler, MD, MHPEd
     affil: 3, 4
     email: joshua.nagler@childrens.harvard.edu
-  - name: Jonathan Hron, MD
+  - name: Jonathan D. Hron, MD
     affil: 1, 4
 affiliation:
   - num: 1
@@ -32,7 +32,7 @@ affiliation:
   - num: 5
     address: Boston Children's Hospital
 main_findings:
-  - "The current bedside procedure involvement in our ED is minimal and unevenly distributed."
+  - "Trainee bedside procedure involvement in our ED is minimal and unevenly distributed."
   - "If other sources of exposure are not adequate for developing competence, mitigation strategies should be considered." 
 main_width: 0.5
 primary_colour: "#a2bda2"
@@ -64,7 +64,7 @@ options(knitr.table.format = "html")
 
 # Background
 
-Involvement in invasive bedside procedures is a requirement for Pediatric [PEDS], Pediatric Emergency Medicine [PEM], and Emergency Medicine [EM] trainees during Pediatric Emergency Department [PED] rotations.
+Involvement in invasive bedside procedures is a requirement for Pediatric, Pediatric Emergency Medicine, and Emergency Medicine trainees during Pediatric Emergency Department rotations.
 
 # Objectives
 
@@ -72,7 +72,7 @@ Quantify the number of invasive bedside procedures trainees attempt.
 
 # Methods
 
-Retrospective chart review of providers performing lumbar puncture [LP] and skin abscess incision and drainage [I&D] at a tertiary PED between 2017-2019, excluding consultant procedures. We included all patients evaluated in our ED, and all ED providers during the study period. We only included trainees that completed either a 2- or 4-week rotation. As unsuccessful procedure attempts may not be captured by billing or structured data, we created a natural language processing [NLP] model to capture all attempts. We calculated prevalence with Bayesian credible intervals.
+Retrospective chart review of providers performing lumbar puncture (LP) and skin abscess incision and drainage (I&D) at a tertiary, pediatric emergency department between 2017-2019, excluding consultant procedures. We included all patients evaluated in our ED, and all ED providers during the study period. We only included trainees that completed either a 2- or 4-week rotation. As unsuccessful procedure attempts may not be captured by billing or structured data, we created a natural language processing (NLP) model to capture all attempts. We calculated prevalence with Bayesian credible intervals.
 
 # Results
 
