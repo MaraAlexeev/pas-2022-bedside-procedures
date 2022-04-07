@@ -19,7 +19,7 @@ author:
     affil: 3
     email: joshua.nagler@childrens.harvard.edu
   - name: Jonathan Hron, MD
-    affil: 1
+    affil: 1, 5
 affiliation:
   - num: 1
     address: Department of Pediatrics, Boston Children's Hospital
@@ -29,6 +29,8 @@ affiliation:
     address: Division of Emergency Medicine, Boston Children’s Hospital
   - num: 4
     address: Boston Children's Hospital
+  - num: 5
+    address: Department of Pediatrics, Harvard Medical School
 main_findings:
   - "The current bedside procedure involvement in our ED is minimal and unevenly distributed."
   - "If other sources of exposure are not adequate for developing compentence, mitigation strategies should be considered." 
