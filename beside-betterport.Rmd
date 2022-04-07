@@ -37,7 +37,7 @@ primary_colour: "#a2bda2"
 seconardy_colour: "#638a66"
 main_textcol: "#f0ebd6"
 logoright_name: '![](bch_logo.svg){.main-img-right}'
-logoleft_name: '![](qr-lp-success.png){.main-img-left}'
+logoleft_name: '![](qr-bedside-procedure.png){.main-img-left}'
 poster_height: "31.5in"
 poster_width: "56in"
 font_family: "Roboto"
@@ -92,4 +92,6 @@ For PEM fellows it was an average of 9 I&Ds throughout the entire 3-year fellows
 
 Patients seen by an attending with no trainee involvement were more likely to have the procedures done by an attending.
 
+### Funding Acknowledgements
 
+NLM FUNDING PLACE HOLDER
