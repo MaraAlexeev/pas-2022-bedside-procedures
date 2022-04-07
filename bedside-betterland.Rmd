@@ -1,0 +1,97 @@
+---
+title: "Trainee Involvement in Bedside Invasive Procedures---Time for a Paradigm Shift"
+author:
+  - name: Mara Alexeev, MD, MPH
+    affil: 1
+    twitter: MaraAlexeev
+    email: mara.alexeev@childrens.harvard.edu
+    orcid: 0000-0002-1063-5494
+    main: true
+  - name: Frank Gonzalez, MD
+    affil: 2
+  - name: Amir Kimia, MD
+    affil: 3, 4
+    email: amir.kimia@childrens.harvard.edu
+  - name: Assaf Landschaft, M.Sc.
+    affil: 5
+    email: assaf.landschaft@childrens.harvard.edu
+  - name: Joshua Nagler, MD, MHPEd
+    affil: 3, 4
+    email: joshua.nagler@childrens.harvard.edu
+  - name: Jonathan Hron, MD
+    affil: 1, 4
+affiliation:
+  - num: 1
+    address: Department of Pediatrics, Boston Children's Hospital
+  - num: 2
+    address: Department of Transport and Emergency Medicine, Children's Hospital, Los Angeles
+  - num: 3
+    address: Division of Emergency Medicine, Boston Children’s Hospital
+  - num: 4
+    address: Department of Pediatrics, Harvard Medical School
+  - num: 5
+    address: Boston Children's Hospital
+main_findings:
+  - "The current bedside procedure involvement in our ED is minimal and unevenly distributed."
+  - "If other sources of exposure are not adequate for developing competence, mitigation strategies should be considered." 
+main_width: 0.5
+primary_colour: "#a2bda2"
+seconardy_colour: "#638a66"
+main_textcol: "#f0ebd6"
+logoright_name: '![](bch_logo.svg){.main-img-right}'
+logoleft_name: '![](qr-bedside-procedure.png){.main-img-left}'
+poster_height: "31.5in"
+poster_width: "56in"
+font_family: "Roboto"
+main_fontfamily: "Roboto"
+output: 
+  posterdown::posterdown_betterland:
+    self_contained: true
+    pandoc_args: --mathjax
+    highlight: haddock
+    number_sections: false
+---
+```{r, include=FALSE}
+knitr::opts_chunk$set(results = 'asis',
+                      echo = FALSE,
+                      warning = FALSE,
+                      tidy = FALSE,
+                      message = FALSE,
+                      fig.align = 'center',
+                      out.width = "100%")
+options(knitr.table.format = "html") 
+```
+
+# Background
+
+Involvement in invasive bedside procedures is a requirement for Pediatric [PEDS], Pediatric Emergency Medicine [PEM], and Emergency Medicine [EM] trainees during Pediatric Emergency Department [PED] rotations.
+
+# Objectives
+
+Quantify the number of invasive bedside procedures trainees attempt.
+
+# Methods
+
+Retrospective chart review of providers performing lumbar puncture [LP] and skin abscess incision and drainage [I&D] at a tertiary PED between 2017-2019, excluding consultant procedures. We included all patients evaluated in our ED, and all ED providers during the study period. We only included trainees that completed either a 2- or 4-week rotation. As unsuccessful procedure attempts may not be captured by billing or structured data, we created a natural language processing [NLP] model to capture all attempts. We calculated prevalence with Bayesian credible intervals.
+
+# Results
+
+We identified 1,113 LP and 798 I&D attempts during the study period. There were 928 resident rotations through the ED; 552 (59%) were PEDS residents, 359 (39%) EM trainees, and 17 (1.8%) visiting residents, in addition to 18 PEM fellows working in the ED each year. 
+ 
+An LP was attempted by a PEDS resident in 310 (28%) of the cases, an EM resident in 174 (16%), a PEM fellow 267 (24%) and PEM attending 256 (23%). 
+
+Calculating resident LP attempts per rotations resulted in a range of 0-5, with a median of 0.33 [IQR 0-1]. During the study period, 199 residents (43%) did not perform an LP during, while 126 residents (27%) performed a range of 2-15 LPs. 
+
+For PEM fellows the average was 5 LPs throughout the entire 3-year fellowship and for PEM attendings it translates to under 1 LP a year.
+ 
+An I&D was attempted by a PEDS resident in 176 (22%) of the cases, an EM resident in 152 (19%), a PEM fellow in 176 (22%), and  a PEM attending 263 (33%). 
+
+Calculating Residents I&Ds attempts per rotation resulted in a range of 0-3 with a median of 0 (IQR 0-0.75). During the study period, 281 residents (60%) did not perform an abscess I&D during their rotations, while 64 residents (14%) performed a range of 2-8 I&Ds. 
+
+For PEM fellows it was an average of 9 I&Ds throughout the entire 3-year fellowship and for PEM attendings it translates to 1-2 I&D a year.
+
+Patients seen by an attending with no trainee involvement were more likely to have the procedures done by an attending.
+
+### Funding Acknowledgements
+
+Mara Alexeev---Biomedical Informatics and Data Science Research Training Program, T15LM007092-30, PI Dr. Nils Gehlenborg, PhD
